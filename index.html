@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SazikoSport</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+SazikoSport  
+</div>
+<section class="stories">
+
+<div class="story">
+
+<img src="images/story1.jpg">
+
+</div>
+
+<div class="story">
+
+<img src="images/story2.jpg">
+
+</div>
+
+<div class="story">
+
+<img src="images/story3.jpg">
+
+</div>
+<div id="storyViewer">
+
+<img id="storyImage">
+<div id="storyViewer">
+
+<div class="story-header">
+
+<div class="progress">
+
+<div id="progressBar"></div>
+
+</div>
+
+<button id="closeStory">
+
+✖
+
+</button>
+
+</div>
+
+<img id="storyImage">
+
+</div>
+</div>
+</section>
+<nav>
+
+<a href="index.html">خانه</a>
+
+<a href="news.html">اخبار</a>
+
+<div class="dropdown">
+
+<a href="matches.html">
+مسابقات
+</a>
+
+<div class="dropdown-content">
+
+<a href="football-matches.html">
+فوتبال
+</a>
+
+<a href="basketball-matches.html">
+بسکتبال
+</a>
+
+<a href="volleyball-matches.html">
+والیبال
+</a>
+
+<a href="tennis-matches.html">
+تنیس
+</a>
+
+</div>
+
+</div>
+<a href="videos.html">ویدیوها</a>
+
+<a href="tables.html">جدول ها</a>
+
+</nav>
+<div class="menu-btn">
+☰
+</div>
+<div class="search-box">
+
+<input
+type="text"
+id="searchInput"
+placeholder="جستجو...">
+
+</div>
+<div class="user-buttons">
+
+<a href="login.html">
+ورود
+</a>
+
+<a href="register.html">
+ثبت نام
+</a>
+
+</div>
+</header>
+
+<section class="slider">
+
+<div class="slide active">
+
+<img src="images/fifa.jpg">
+
+<div class="overlay">
+
+<h1>SazikoSport</h1>
+
+<p>
+جدیدترین اخبار و نتایج ورزشی
+</p>
+
+<a href="#" class="btn">
+مشاهده مسابقات
+</a>
+
+</div>
+<section class="ticker">
+
+
+</section>
+</div>
+
+<div class="slide">
+
+<img src="images/sk.jpg">
+
+<div class="overlay">
+
+<h1>فوتبال جهان</h1>
+
+<p>
+آخرین اخبار فوتبال
+</p>
+
+</div>
+
+</div>
+
+<div class="slide">
+
+<img src="images/basketball.jpg">
+
+<div class="overlay">
+
+<h1>بسکتبال</h1>
+
+<p>
+نتایج و اخبار NBA
+</p>
+
+</div>
+
+</div>
+
+<div class="dots">
+
+<span class="dot active"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+
+</div>
+<button id="prevSlide">
+
+❮
+
+</button>
+
+<button id="nextSlide">
+
+❯
+
+</button>
+</section>
+
+<section class="sports">
+
+<section class="sports">
+
+<a href="football.html" class="sport-card">
+
+<img src="images/football-icon.png">
+
+<h3>فوتبال</h3>
+
+</a>
+
+<a href="basketball.html" class="sport-card">
+
+<img src="images/basketball-icon.png">
+
+<h3>بسکتبال</h3>
+
+</a>
+
+<a href="volleyball.html" class="sport-card">
+
+<img src="images/volleyball-icon.png">
+
+<h3>والیبال</h3>
+
+</a>
+
+<a href="tennis.html" class="sport-card">
+
+<img src="images/tennis-icon.png">
+
+<h3>تنیس</h3>
+
+</a>
+
+<a href="wrestling.html" class="sport-card">
+
+<img src="images/wrestling-icon.png">
+
+<h3>کشتی</h3>
+
+</a>
+
+</section>
+
+</section>
+
+<section class="section-title">
+<h2>آخرین اخبار</h2>
+</section>
+
+<section class="news-grid">
+<div class="news-card">
+
+<img src="images/news1.jpg">
+
+<h3>خبر اول</h3>
+
+<a href="news1.html" class="btn">
+
+مشاهده بیشتر
+
+</a>
+
+</div>
+<div class="news-card">
+
+<img src="images/news1.jpg">
+
+<h3>خبر اول</h3>
+
+<p>
+متن کوتاه خبر
+</p>
+
+</div>
+
+<div class="news-card">
+
+<img src="images/news2.jpg">
+
+<h3>خبر دوم</h3>
+
+<p>
+متن کوتاه خبر
+</p>
+
+</div>
+
+<div class="news-card">
+
+<img src="images/news3.jpg">
+
+<h3>خبر سوم</h3>
+
+<p>
+متن کوتاه خبر
+</p>
+
+</div>
+
+<div class="news-card">
+
+<img src="images/news4.jpg">
+
+<h3>خبر چهارم</h3>
+
+<p>
+متن کوتاه خبر
+</p>
+
+</div>
+
+</section>
+
+<section class="section-title">
+<h2>مسابقات زنده</h2>
+</section>
+
+<section class="matches">
+
+<div class="match-card">
+
+<img src="images/realmadrid.png">
+
+<span>1 - 1</span>
+
+<img src="images/bayern.png">
+
+</div>
+
+<div class="match-card">
+
+<img src="images/iran.png">
+
+<span>3 - 2</span>
+
+<img src="images/brazil.png">
+
+</div><section class="live-section">
+
+<h2 class="section-title">
+
+🔴 پخش زنده
+
+</h2>
+
+<div class="news-card">
+
+<img src="images/live1.jpg">
+
+<h3>
+
+رئال مادرید vs بارسلونا
+
+</h3>
+
+<a href="live1.html" class="btn">
+
+تماشا
+
+</a>
+
+</div>
+
+</section>
+<section>
+
+    
+<h2 class="section-title">
+
+🎥 ویدیوهای برتر
+
+</h2>
+
+<div class="news-grid">
+
+<div class="news-card">
+
+<img src="images/video1.jpg">
+
+<h3>
+
+گل‌های برتر هفته
+
+</h3>
+
+</div>
+
+<div class="news-card">
+
+<img src="images/video2.jpg">
+
+<h3>
+
+خلاصه ال‌کلاسیکو
+
+</h3>
+
+</div>
+
+</div>
+
+</section>
+</section>
+<section class="leagues">
+
+<h2 class="section-title">
+
+🏆 لیگ‌های محبوب
+
+</h2>
+
+<div class="sports">
+
+<a href="laliga.html" class="sport-card">
+
+<img src="images/laliga.png">
+
+<h3>
+
+لالیگا
+
+</h3>
+
+</a>
+
+<a href="laliga.html" class="sport-card">
+
+<img src="images/laliga.png">
+
+<h3>
+
+لالیگا
+
+</h3>
+
+</a>
+
+<a href="laliga.html" class="sport-card">
+
+<img src="images/laliga.png">
+
+<h3>
+
+لالیگا
+
+</h3>
+
+</a>
+
+</section>
+<footer>
+
+<h2>SazikoSport</h2>
+
+<p>
+
+مرجع اخبار و نتایج ورزشی
+
+</p>
+
+<div class="socials">
+
+<a href="https://instagram.com">
+
+Instagram
+
+</a>
+
+<a href="https://t.me">
+
+Telegram
+
+</a>
+
+<a href="https://youtube.com">
+
+YouTube
+
+</a>
+
+</div>
+<section>
+
+</footer>
+
+<script src="script.js"></script>
+<button id="topBtn">
+
+⬆
+
+</button>
+</body>
+</html>
